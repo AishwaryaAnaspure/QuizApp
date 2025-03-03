@@ -1,21 +1,14 @@
-import { useContext, useEffect } from "react";
-import { AuthContext } from "../context/AuthContext";
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const Result = () => {
-    const{ result, fetchResults } = useContext(AuthContext);
-    
-    useEffect(() => {
-        fetchResults();
-    }, []);
+    const location = useLocation();
+    const { score } = location.state;
 
-    return(
+    return (
         <div>
-            <h1> Quiz Results </h1>
-            {result ? (
-                <p>You Answered {result.correct} out of {result.total} questions correctly!</p>
-            ) : ( <p> Loading...</p>
-
-            )}
+            <h1>Your Score: {score}</h1>
         </div>
     );
 };
