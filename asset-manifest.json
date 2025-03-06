@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/AishwaryaAnaspure/QuizApp/static/js/main.81083f0a.js",
-    "index.html": "/AishwaryaAnaspure/QuizApp/index.html",
-    "main.81083f0a.js.map": "/AishwaryaAnaspure/QuizApp/static/js/main.81083f0a.js.map"
+    "main.js": "/QuizApp/static/js/main.81083f0a.js",
+    "index.html": "/QuizApp/index.html",
+    "main.81083f0a.js.map": "/QuizApp/static/js/main.81083f0a.js.map"
   },
   "entrypoints": [
     "static/js/main.81083f0a.js"
